@@ -1,0 +1,7 @@
+Add to your wildfly's standalone.xml
+
+<security-domain name="secureDomain" cache-type="default">
+    <authentication>
+        <login-module code="ei.redirect.CustomLoginModule" flag="required"/>
+    </authentication>
+</security-domain>
