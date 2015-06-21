@@ -1,1 +1,1 @@
-# j_secure_check   git init  git add README.md  git commit -m "first commit"  git remote add origin https://github.com/evgenyix/j_secure_check.git  git push -u origin master
+Solve JAAS problem when user directly us http://somesite/login.jsp and receive blank page with address http://somesite/j_security_check
