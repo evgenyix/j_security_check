@@ -1,1 +1,5 @@
-Solve JAAS problem when user directly us http://somesite/login.jsp and receive blank page with address http://somesite/j_security_check
+Solve JAAS problem when user directly use http://somesite/login.jsp and after login redirected to blank page with URL http://somesite/j_security_check.
+
+P.S.
+Need to configure secure domain in Wildfly standalone.xml or domain.xml
+Use Wildfly's CustomLoginModule (based on UsernamePasswordLoginModule) in this examplr for login processing
