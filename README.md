@@ -2,4 +2,4 @@ Solve JAAS problem when user directly use http://somesite/login.jsp and after lo
 
 P.S.
 Need to configure secure domain in Wildfly standalone.xml or domain.xml
-Use Wildfly's CustomLoginModule (based on UsernamePasswordLoginModule) in this examplr for login processing
+Use Wildfly's CustomLoginModule (based on UsernamePasswordLoginModule) in this example for login processing
